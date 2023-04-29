@@ -70,13 +70,13 @@ Each image is 70% opacity (30% opacity of an eraser)
 ```
 dota_minimap_simple_background true
 dota_hud_extra_large_minimap 0
-dota_minimap_draw_fow false
+dota_minimap_draw_fow true
 ```
 #### Complex:
 ```
 dota_minimap_simple_background false
 dota_hud_extra_large_minimap 0
-dota_minimap_draw_fow false
+dota_minimap_draw_fow true
 ```
 
 ### Large:
@@ -88,13 +88,13 @@ dota_minimap_draw_fow false
 ```
 dota_minimap_simple_background true
 dota_hud_extra_large_minimap 1
-dota_minimap_draw_fow false
+dota_minimap_draw_fow true
 ```
 #### Complex:
 ```
 dota_minimap_simple_background false
 dota_hud_extra_large_minimap 1
-dota_minimap_draw_fow false
+dota_minimap_draw_fow true
 ```
 
 
@@ -107,11 +107,11 @@ dota_minimap_draw_fow false
 ```
 dota_minimap_simple_background true
 dota_hud_extra_large_minimap 2
-dota_minimap_draw_fow false
+dota_minimap_draw_fow true
 ```
 #### Complex:
 ```
 dota_minimap_simple_background false
 dota_hud_extra_large_minimap 2
-dota_minimap_draw_fow false
+dota_minimap_draw_fow true
 ```
