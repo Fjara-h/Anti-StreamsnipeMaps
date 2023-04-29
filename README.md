@@ -1,62 +1,117 @@
 # StreamsniperMaps
  Semi-transparent stream overlays for Dota 2 minimap
 
-Patch 7.24:
-
-Simple Backgrounds -
-
-Small(244x244px): ![Simple - Small - 731](https://raw.githubusercontent.com/robuhde/StreamsniperMaps/master/731-Simple-Small-AntiStreamSnipeMap.png)
-
-Large(280x280px): ![Simple - Large - 731](https://raw.githubusercontent.com/robuhde/StreamsniperMaps/master/731-Simple-Large-AntiStreamSnipeMap.png)
-
-Extra large(420x420px): 
-![Simple - Extra Large - 731](https://raw.githubusercontent.com/robuhde/StreamsniperMaps/master/731-Simple-XLarge-AntiStreamSnipeMap.png)
-
-
-Complex Backgrounds -
-
-Small(244x244px):![Complex - Small - 731](https://raw.githubusercontent.com/robuhde/StreamsniperMaps/master/731-Complex-Small-AntiStreamSnipeMap.png)
-
-Large(280x280px):![Complex - Large - 731](https://raw.githubusercontent.com/robuhde/StreamsniperMaps/master/731-Complex-Large-AntiStreamSnipeMap.png)
-
-Extra large(420x420px):![Complex - Extra Large - 731](https://raw.githubusercontent.com/robuhde/StreamsniperMaps/master/731-Complex-XLarge-AntiStreamSnipeMap.png)
-
-
-How these are made (An incomplete guide):
-
+#How-to:
 Pick Marci
 pause
--gold 99999
--wtf
--lvlup 30
 
-buy ward + blink
+##In-game chat:
+```
+-disablecreepspawn
+-killcreeps all
+-allvision
+```
 
+##In console:
+```
+sv_cheats true
+dota_kill_buildings
 dota_minimap_rune_size 0
 dota_minimap_hero_size 0
--disablecreepspawn
-(-killcreeps all)
--allvision
+dota_creeps_no_spawning true
+dota_kill_creeps true
+```
 
-Ward everything
-Screenshot in small, medium, large for complex and simple
-dota_hud_extra_large_minimap 2
+###Removing Fog of War (Optional):
+```
+dota_minimap_draw_fow false
+```
 
-buy 4 rapiers and a salve, kill all dire towers
-Screenshot in small, medium, large for complex and simple
-dota_hud_extra_large_minimap 2
+##In-game chat:
+Teleport to the enemy base and use ult to kill the remaining buildings
 
+```
+-wtf
+-levelup 30
+-item blink
+-item observer
+-item moon_shard
+-item rapier
+-item rapier
+-item rapier
+-teleport
+```
+
+Focused in ally base, make sure to level the bot's ultimate:
+```
 -createhero marci enemy
 -levelbots 30
--givebots item_blink
--givebots item_heart
 -givebots item_rapier
 -givebots item_rapier
 -givebots item_rapier
 -givebots item_rapier
+```
 
-small: 14px circle, 95 radiant, 105 dire
-normal: 15px circle, 115 radiant, 125 dire
-large: 24px circle, 165
 
-30% Opacity
+## Warding:
+Blink around and ward, enabling fog of war is recommended.
+
+Screenshots:
+Move camera to bottom left corner
+Crop to outline
+Each image is 70% opacity (30% opacity of an eraser)
+
+###Small:
+- Ancient: 14px centered
+- Radiant fountain: 125px centered on the corner of the image
+- Dire fountain: 140px centered on the corner of the image
+
+#### Simple:
+```
+dota_minimap_simple_background true
+dota_hud_extra_large_minimap 0
+dota_minimap_draw_fow false
+```
+#### Complex:
+```
+dota_minimap_simple_background false
+dota_hud_extra_large_minimap 0
+dota_minimap_draw_fow false
+```
+
+###Large:
+- Ancient: 15px centered
+- Radiant fountain: 150px centered on the corner of the image
+- Dire fountain: 165px centered on the corner of the image
+
+#### Simple:
+```
+dota_minimap_simple_background true
+dota_hud_extra_large_minimap 1
+dota_minimap_draw_fow false
+```
+#### Complex:
+```
+dota_minimap_simple_background false
+dota_hud_extra_large_minimap 1
+dota_minimap_draw_fow false
+```
+
+
+###XLarge:
+- Ancient: 24px centered
+- Radiant fountain: 225px centered on the corner of the image
+- Dire fountain: 255px centered on the corner of the image
+
+#### Simple:
+```
+dota_minimap_simple_background true
+dota_hud_extra_large_minimap 2
+dota_minimap_draw_fow false
+```
+#### Complex:
+```
+dota_minimap_simple_background false
+dota_hud_extra_large_minimap 2
+dota_minimap_draw_fow false
+```
