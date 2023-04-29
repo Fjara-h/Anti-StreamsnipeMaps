@@ -1,18 +1,18 @@
 # StreamsniperMaps
  Semi-transparent stream overlays for Dota 2 minimap
 
-#How-to:
+# How-to:
 Pick Marci
 pause
 
-##In-game chat:
+## In-game chat:
 ```
 -disablecreepspawn
 -killcreeps all
 -allvision
 ```
 
-##In console:
+## In console:
 ```
 sv_cheats true
 dota_kill_buildings
@@ -22,12 +22,12 @@ dota_creeps_no_spawning true
 dota_kill_creeps true
 ```
 
-###Removing Fog of War (Optional):
+### Removing Fog of War (Optional):
 ```
 dota_minimap_draw_fow false
 ```
 
-##In-game chat:
+## In-game chat:
 Teleport to the enemy base and use ult to kill the remaining buildings
 
 ```
@@ -61,7 +61,7 @@ Move camera to bottom left corner
 Crop to outline
 Each image is 70% opacity (30% opacity of an eraser)
 
-###Small:
+### Small:
 - Ancient: 14px centered
 - Radiant fountain: 125px centered on the corner of the image
 - Dire fountain: 140px centered on the corner of the image
@@ -79,7 +79,7 @@ dota_hud_extra_large_minimap 0
 dota_minimap_draw_fow false
 ```
 
-###Large:
+### Large:
 - Ancient: 15px centered
 - Radiant fountain: 150px centered on the corner of the image
 - Dire fountain: 165px centered on the corner of the image
@@ -98,7 +98,7 @@ dota_minimap_draw_fow false
 ```
 
 
-###XLarge:
+### XLarge:
 - Ancient: 24px centered
 - Radiant fountain: 225px centered on the corner of the image
 - Dire fountain: 255px centered on the corner of the image
