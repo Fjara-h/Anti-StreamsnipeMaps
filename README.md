@@ -2,8 +2,8 @@
  Semi-transparent stream overlays for Dota 2 minimap
 
 # How-to:
-Pick Marci
-pause
+* Pick Marci
+* pause
 
 ## In-game chat:
 ```
