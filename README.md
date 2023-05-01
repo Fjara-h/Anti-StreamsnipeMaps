@@ -35,10 +35,7 @@ Teleport to the enemy base and use ult to kill the remaining buildings
 -levelup 30
 -item blink
 -item observer
--item moon_shard
--item rapier
--item rapier
--item rapier
+-rapgod
 -teleport
 ```
 
