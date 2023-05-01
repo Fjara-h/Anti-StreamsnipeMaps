@@ -2,17 +2,17 @@
  Semi-transparent stream overlays for Dota 2 minimap
 
 # How-to:
-* Pick Marci
-* pause
+1. Pick Marci
+2. pause
 
-## In-game chat:
+## 3. In-game chat:
 ```
 -disablecreepspawn
 -killcreeps all
 -allvision
 ```
 
-## In console:
+## 4. In console:
 ```
 sv_cheats true
 dota_kill_buildings
@@ -22,12 +22,12 @@ dota_creeps_no_spawning true
 dota_kill_creeps true
 ```
 
-### Removing Fog of War (Optional):
+### 4a. Removing Fog of War (Optional):
 ```
 dota_minimap_draw_fow false
 ```
 
-## In-game chat:
+## 5. In-game chat:
 Teleport to the enemy base and use ult to kill the remaining buildings
 
 ```
@@ -49,7 +49,7 @@ Focused in ally base, make sure to level the bot's ultimate:
 ```
 
 
-## Warding:
+## 6. Warding:
 Blink around and ward, enabling fog of war is recommended.
 
 Screenshots:
