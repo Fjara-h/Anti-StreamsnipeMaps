@@ -32,7 +32,6 @@ Teleport to the enemy base and use ult to kill the remaining buildings
 
 ```
 -wtf
--levelup 30
 -item blink
 -item observer
 -rapgod
